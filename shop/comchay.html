@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>ĂN VẶT ĐÊ</title>
+    <link rel="stylesheet" href="./https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/comchay.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1-web/css/all.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <!--block element Modifier-->
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            Vào cửa hàng
+                            <!-- Header QR code-->
+                            <div class="header_qr">
+                                <img src="./assets/img/QR_code.png" alt="QR_code" class="header_qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="https://shopee.vn/web" class="header__qr-link">
+                                        <img src="./assets/img/googleplay.png" alt="Google play" class="header__qr-dowload-img">
+                                    </a>
+                                    <a href="https://shopee.vn/web" class="header__qr-link">
+                                        <img src="./assets/img/app_store.png" alt="App store" class="header__qr-dowload-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--no-pointer">Kết nối</span>
+                            <a href="https://www.facebook.com/ShopeeVN" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/Shopee_VN/" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>   
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-solid fa-bell"></i>
+                                Thông báo
+</a>                        </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewd">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/bimbim_muc.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Đồ ăn vặt</span>
+                                                <span class="header__notify-desriottion">Mô tả sản phẩm  </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--viewd">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/daheochaytoi.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Đồ ăn vặt</span>
+                                                <span class="header__notify-desriottion">Mô tả sản phẩm </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/khogalachanh.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Đồ ăn vặt</span>
+                                                <span class="header__notify-desriottion">Mô tả sản phẩm </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>                      
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+<i class="header__navbar-icon fa-solid fa-circle-info"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li> -->
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="./assets/img/avatar.jpg" alt="" class="header__navbar-user-img">
+                            <span class="header__navbar-user-name">Minh Khoi</span>
+
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Địa chỉ của tôi </a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đơn mua </a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đăng xuất </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Header with search -->
+                    <div class="header-with-search">
+                    <div class="header__logo">
+                        <div>
+
+                            <img class="header__logo-img" src="./assets/img/logo.jpeg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm">
+
+                            <!--  Search history -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm </h3>
+                                <ul class="header__search-history-list">
+                                     <li class="header__search-history-item">
+                                        <a href="">Khô gà </a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Khô bò </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-select">
+<span class="header__search-select-label">Trong shop</span>
+                            <i class="header__search-select-icon fa-solid fa-angle-down"></i>
+
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>Trong shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>Ngoai shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-bnt">
+                            <i class="header__search-bnt-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <!--  Cart layout -->
+                     <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                            <span class="header__cart-notice">3</span>
+                            <!-- No cart: header__cart-list--no-cart -->
+                            <div class="header__cart-list">
+                                <img src="./assets/img/giohang.png" alt="" class="header__cart-no-cart-img">
+                                <span class="header__cart-list-no-cart-msg">
+                                    Chưa có sản phẩm
+                                </span>
+
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm </h4>
+                                <ul class="header__cart-list-item">
+                                    <!-- Cart item -->
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/bimbim_muc.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bim Bim Muc Nuong</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">10.000d</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+<span class="header__cart-item-description">
+                                                    Phan Loai: Xanh
+                                                </span>
+                                                <span class="header__cart-item-remove">Xoa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/daheochaytoi.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bim Bim Muc Nuong</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">10.000d</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phan Loai: Xanh
+                                                </span>
+                                                <span class="header__cart-item-remove">Xoa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/chipchip.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bim Bim Muc Nuong</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">10.000d</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+<span class="header__cart-item-description">
+                                                    Phan Loai: Xanh
+                                                </span>
+                                                <span class="header__cart-item-remove">Xoa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/bimbim_muc.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bim Bim Muc Nuong</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">10.000d</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+<span class="header__cart-item-description">
+                                                    Phan Loai: Xanh
+                                                </span>
+                                                <span class="header__cart-item-remove">Xoa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/daheochaytoi.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bim Bim Muc Nuong</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">10.000d</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phan Loai: Xanh
+                                                </span>
+                                                <span class="header__cart-item-remove">Xoa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/chipchip.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bim Bim Muc Nuong</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">10.000d</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+<span class="header__cart-item-description">
+                                                    Phan Loai: Xanh
+                                                </span>
+                                                <span class="header__cart-item-remove">Xoa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/bimbim_muc.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bim Bim Muc Nuong</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">10.000d</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+<span class="header__cart-item-description">
+                                                    Phan Loai: Xanh
+                                                </span>
+                                                <span class="header__cart-item-remove">Xoa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/daheochaytoi.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bim Bim Muc Nuong</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">10.000d</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phan Loai: Xanh
+                                                </span>
+                                                <span class="header__cart-item-remove">Xoa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/chipchip.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bim Bim Muc Nuong</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">10.000d</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+<span class="header__cart-item-description">
+                                                    Phan Loai: Xanh
+                                                </span>
+                                                <span class="header__cart-item-remove">Xoa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <a href="#" class="header__cart-view-cart btn btn--primary">Xem gio hang</a>
+                            </div>
+                        </div>
+
+                      
+                        </div>
+                </div>
+            </div>
+        </header>
+            
+        <div class="app-container">
+            <div class="grid">
+                <div class="grid__row app-content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+
+                            <h3 class="category-heading">
+                                Danh mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item-active">
+                                    <a href="./index.html" class="category-item__link">Thịt sấy khô </a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="./thucphamkho.html" class="category-item__link" >Hải sản khô </a>
+                                </li>
+                                
+                                <li class="category-item">
+                                    <a href="./comchay.html" class="category-item__link" style="color: #1409cb;">Cơm cháy</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="./dochay.html" class="category-item__link">Đồ chay</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter-title">Sắp xếp theo</span>
+                            <button class="home-filter-btn btn">Phổ Biến</button>
+                            <button class="home-filter-btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filter-btn btn">Bán chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input-label">Giá</span>
+                                <i class="select-input-icon fas fa-angle-down"></i>
+                                <!-- List Options -->
+                                <ul class="select-input-list">
+                                    <li class="select-input-item">
+                                        <a href="" class="select-input-link">Giá: Thấp đến cao</a>
+                                    </li>
+                                    <li class="select-input-item">
+                                        <li class="select-input-item">
+                                            <a href="" class="select-input-link">Giá: Cao đến thấp</a>
+</li>
+                                    </li>
+                                </ul>
+                            </div>
+
+                          
+
+                                
+                        </div>
+
+                        <div class="home-product">
+                            <div class="grid__row">
+                                <!--Product Item-->
+                                <div class="grid__column-2-5">
+                                    <a class="home-product-item" href="https://shopee.vn/Kh%C3%B4-g%C3%A0-l%C3%A1-chanh-x%C3%A9-cay-DumBum-280g-%C4%91%E1%BB%93-%C4%83n-v%E1%BA%B7t-S%C3%A0i-G%C3%B2n-v%E1%BB%ABa-ngon-v%E1%BB%ABa-r%E1%BA%BB-i.413915018.2937007106?sp_atk=e9ef473c-e9ee-4055-b55a-3721710b2e80&xptdk=e9ef473c-e9ee-4055-b55a-3721710b2e80">
+                                        <div class="home-product-item-img" style="background-image: url(./assets/img/snackmucthaian.jpeg);background-size: contain; background-repeat: no-repeat;"></div>
+                                        <h4 class="home-product-item-name">Khô gà lá chanh xé cay 280g</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">đ73.000</span>
+                                            <span class="home-product-item-price-current">đ60.000</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked"> 
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">AV da ban</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Ăn Vặt Đê</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>
+                                                Yêu thích
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item-sale-percent">10%</span>
+                                            <span class="home-product-item-sale-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-5 home-product-item-wrapper">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image: url(./assets/img/mucxetamgiavi.jpeg);background-size: contain; background-repeat: no-repeat;"></div>
+                                        <h4 class="home-product-item-name">Khô gà lá chanh xé cay 280g</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">đ73.000</span>
+                                            <span class="home-product-item-price-current">đ60.000</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked"> 
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">AV da ban</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Ăn Vặt Đê</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>
+                                                Yêu thích
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item-sale-percent">10%</span>
+                                            <span class="home-product-item-sale-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-5">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image: url(./assets/img/comchaychabong.jpeg);background-size: contain; background-repeat: no-repeat;"></div>
+                                        <h4 class="home-product-item-name">Khô gà lá chanh xé cay 280g</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">đ73.000</span>
+                                            <span class="home-product-item-price-current">đ60.000</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked"> 
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">AV da ban</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Ăn Vặt Đê</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>
+                                                Yêu thích
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item-sale-percent">10%</span>
+                                            <span class="home-product-item-sale-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-5">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image: url(./assets/img/comchaylackhobo.jpeg);background-size: contain; background-repeat: no-repeat;"></div>
+                                        <h4 class="home-product-item-name">Khô gà lá chanh xé cay 280g</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">đ73.000</span>
+                                            <span class="home-product-item-price-current">đ60.000</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked"> 
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">AV da ban</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Ăn Vặt Đê</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>
+                                                Yêu thích
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item-sale-percent">10%</span>
+                                            <span class="home-product-item-sale-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-5">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image: url(./assets/img/comchay\ \(1\).jpg);background-size: contain; background-repeat: no-repeat;"></div>
+                                        <h4 class="home-product-item-name">Khô gà lá chanh xé cay 280g</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">đ73.000</span>
+                                            <span class="home-product-item-price-current">đ60.000</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked"> 
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">AV da ban</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Ăn Vặt Đê</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>
+                                                Yêu thích
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item-sale-percent">10%</span>
+                                            <span class="home-product-item-sale-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-5">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image: url(./assets/img//comchaylackhoga.jpeg);background-size: contain; background-repeat: no-repeat;"></div>
+                                        <h4 class="home-product-item-name">Khô gà lá chanh xé cay 280g</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">đ73.000</span>
+                                            <span class="home-product-item-price-current">đ60.000</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked"> 
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">AV da ban</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Ăn Vặt Đê</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>
+                                                Yêu thích
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item-sale-percent">10%</span>
+                                            <span class="home-product-item-sale-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-5">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image: url(./assets/img/daheochaytoi.jpg);background-size: contain; background-repeat: no-repeat;"></div>
+                                        <h4 class="home-product-item-name">Khô gà lá chanh xé cay 280g</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">đ73.000</span>
+                                            <span class="home-product-item-price-current">đ60.000</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked"> 
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">AV da ban</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Ăn Vặt Đê</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>
+                                                Yêu thích
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item-sale-percent">10%</span>
+                                            <span class="home-product-item-sale-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-5">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image: url(./assets/img/dacatrungmuoi.jpg);background-size: contain; background-repeat: no-repeat;"></div>
+                                        <h4 class="home-product-item-name">Khô gà lá chanh xé cay 280g</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">đ73.000</span>
+                                            <span class="home-product-item-price-current">đ60.000</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked"> 
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">AV da ban</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Ăn Vặt Đê</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>
+                                                Yêu thích
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item-sale-percent">10%</span>
+                                            <span class="home-product-item-sale-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-5">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image: url(./assets/img/khomucladua.jpg);background-size: contain; background-repeat: no-repeat;"></div>
+                                        <h4 class="home-product-item-name">Khô gà lá chanh xé cay 280g</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">đ73.000</span>
+                                            <span class="home-product-item-price-current">đ60.000</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked"> 
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">AV da ban</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Ăn Vặt Đê</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>
+                                                Yêu thích
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item-sale-percent">10%</span>
+                                            <span class="home-product-item-sale-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-5">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image: url(./assets/img/ngu-coc.jpg);background-size: contain; background-repeat: no-repeat;"></div>
+                                        <h4 class="home-product-item-name">Khô gà lá chanh xé cay 280g</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">đ73.000</span>
+                                            <span class="home-product-item-price-current">đ60.000</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked"> 
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">AV đã bán </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Ăn Vặt Đê</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>
+                                                Yêu thích
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item-sale-percent">10%</span>
+                                            <span class="home-product-item-sale-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-5">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image: url(./assets/img/ngu-coc.jpg);background-size: contain; background-repeat: no-repeat;"></div>
+                                        <h4 class="home-product-item-name">Khô gà lá chanh xé cay 280g</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">đ73.000</span>
+                                            <span class="home-product-item-price-current">đ60.000</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked"> 
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">AV đã bán </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Ăn Vặt Đê</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>
+                                                Yêu thích
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item-sale-percent">10%</span>
+                                            <span class="home-product-item-sale-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-5">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image: url(./assets/img/dosaykho/comchaychabong.jpeg);background-size: contain; background-repeat: no-repeat;"></div>
+                                        <h4 class="home-product-item-name">Khô gà lá chanh xé cay 280g</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">đ73.000</span>
+                                            <span class="home-product-item-price-current">đ60.000</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked"> 
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">AV đã bán </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Ăn Vặt Đê</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>
+                                                Yêu thích
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item-sale-percent">10%</span>
+                                            <span class="home-product-item-sale-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-5">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image: url(./assets/img/dosaykho/daheomamhanh.jpeg);background-size: contain; background-repeat: no-repeat;"></div>
+                                        <h4 class="home-product-item-name">Khô gà lá chanh xé cay 280g</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">đ73.000</span>
+                                            <span class="home-product-item-price-current">đ60.000</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked"> 
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">AV đã bán </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Ăn Vặt Đê</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>
+                                                Yêu thích
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item-sale-percent">10%</span>
+                                            <span class="home-product-item-sale-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-5">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image: url(./assets/img/dosaykho/khogabotoi.jpeg);background-size: contain; background-repeat: no-repeat;"></div>
+                                        <h4 class="home-product-item-name">Khô gà lá chanh xé cay 280g</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">đ73.000</span>
+                                            <span class="home-product-item-price-current">đ60.000</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked"> 
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">AV đã bán </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Ăn Vặt Đê</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>
+                                                Yêu thích
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item-sale-percent">10%</span>
+                                            <span class="home-product-item-sale-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-5">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image: url(./assets/img/dosaykho/khogalachanh.jpg);background-size: contain; background-repeat: no-repeat;"></div>
+                                        <h4 class="home-product-item-name">Khô gà lá chanh xé cay 280g</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">đ73.000</span>
+                                            <span class="home-product-item-price-current">đ60.000</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked"> 
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">AV đã bán </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Ăn Vặt Đê</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>
+                                                Yêu thích
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item-sale-percent">10%</span>
+                                            <span class="home-product-item-sale-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-5">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image: url(./assets/img/dosaykho/khogaxecay.jpeg);background-size: contain; background-repeat: no-repeat;"></div>
+                                        <h4 class="home-product-item-name">Khô gà lá chanh xé cay 280g</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">đ73.000</span>
+                                            <span class="home-product-item-price-current">đ60.000</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked"> 
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">AV đã bán </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Ăn Vặt Đê</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>
+                                                Yêu thích
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item-sale-percent">10%</span>
+                                            <span class="home-product-item-sale-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-5">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image: url(./assets/img/dosaykho/khogaxecay.jpeg);background-size: contain; background-repeat: no-repeat;"></div>
+                                        <h4 class="home-product-item-name">Khô gà lá chanh xé cay 280g</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">đ73.000</span>
+                                            <span class="home-product-item-price-current">đ60.000</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked"> 
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">AV đã bán </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Ăn Vặt Đê</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>
+                                                Yêu thích
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item-sale-percent">10%</span>
+                                            <span class="home-product-item-sale-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-5">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item-img" style="background-image: url(./assets/img/dosaykho/khoheochaytoi.jpg);background-size: contain; background-repeat: no-repeat;"></div>
+                                        <h4 class="home-product-item-name">Khô gà lá chanh xé cay 280g</h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item-price-old">đ73.000</span>
+                                            <span class="home-product-item-price-current">đ60.000</span>
+                                        </div>
+                                        <div class="home-product-item-action">
+                                            <span class="home-product-item__like home-product-item__like--liked"> 
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">AV đã bán </span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Ăn Vặt Đê</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>
+                                                Yêu thích
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item-sale-percent">10%</span>
+                                            <span class="home-product-item-sale-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                               
+                            
+
+
+                            </div>
+                        </div>
+
+                        <ul class="pagination home-product__pagination">
+                           
+                            <li class="pagination-item pagination-item--active">
+                                <a href="" class="pagination-item__link">1</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+
+            <footer class="footer">
+                <div class="grid">
+                    <div class="grid__row">
+                        <div class="grid__column-2-5">
+                            <h3 class="footer__heading">Chăm sóc khách hàng </h3>
+                            <ul class="footer-list">
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Ăn vặt shop</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Hướng dẫn mua hàng </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="grid__column-2-5">
+                            <h3 class="footer__heading">Giới thiệu </h3>
+                            <ul class="footer-list">
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Giới thiệu </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Tuyển dụng </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Điều khoản</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="grid__column-2-5">
+                            <h3 class="footer__heading">Sắp ra mắt </h3>
+                            <ul class="footer-list">
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Đồ ăn vặt Trung Quốc </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Đồ ăn vặt Hàn Quốc </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Đồ ăn vặt Nhật Bản</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="grid__column-2-5">
+                            <h3 class="footer__heading">Theo dõi </h3>
+                            <ul class="footer-list">
+                                <li class="footer-item">
+                                    <a href="https://www.facebook.com/ShopeeVN" class="footer-item__link">
+                                        <i class="footer-item__icon fa-brands fa-facebook"></i>
+                                        Facebook
+                                    </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="https://www.instagram.com/Shopee_VN/" class="footer-item__link">
+                                        <i class="footer-item__icon fa-brands fa-instagram"></i>
+                                        Intagram
+                                    </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="https://www.linkedin.com/company/shopee" class="footer-item__link">
+                                        <i class="footer-item__icon fa-brands fa-linkedin"></i>
+                                        Linkedin
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="grid__column-2-5">
+                            <h3 class="footer__heading">Cửa hàng trên ứng dụng </h3>
+                            <div class="footer__dowload">
+                                <img src="/assets/img/QR_code.png" alt="Dowload QR" class="footer__dowload-qr">
+                                <div class="footer__dowload-apps">
+                                    <a href="https://shopee.vn/web" class="footer__dowload-app-img-link">
+
+                                        <img src="/assets/img/googleplay.png" alt="Google play" class="footer__dowload-app-img">
+                                    </a>
+                                    <a href="https://shopee.vn/web" class="footer__dowload-app-img-link">
+
+                                        <img src="/assets/img/app_store.png" alt="App store" class="footer__dowload-app-img">
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="grid">
+                            <p class="footer__text"> bản quyền thuộc team Khắc Điệp & Minh Khôi</p>
+                    </div>
+                </div>
+            </footer>
+        
+    </div>
+    <!--modal layput-->
+    <!-- <div class="modal">
+        <div class="modal__overlay"></div>
+
+        <div class="modal__body"> -->
+            
+           
+                <!-- Register from-->
+      
+                <div class="auth-from__container">
+                    <!-- <div class="auth-from">
+                        <div class="auth-from__header">
+                            <h3 class="auth-from__heading">Đăng ký</h3>
+                            <span class="auth-from__switch-btn">Đăng nhập</span>
+                        </div>
+    
+                        <div class="auth-from__from">
+                            <div class="auth-from__group">
+                                <input type="text" class="auth-from__input" placeholder="Nhập email">
+                            </div>
+                            <div class="auth-from__group">
+                                <input type="password" class="auth-from__input" placeholder="Mật khẩu">
+                        </div>
+                        <div class="auth-from__group">
+                            <input type="password" class="auth-from__input" placeholder="Nhập lại mật khẩu">
+                    </div>
+    
+                    <div class="auth-from__aside"> 
+                        <p class="auth-from__policy-text">
+                            Bằng việc đăng ký, bạn đã đồng ý về
+                            <a href="" class="auth-from__text-link">Điều khoản dịch vụ</a>
+                            <a href="" class="auth-from__text-link">Chính sách bảo mật</a>
+    
+                        </p>
+                    </div>
+    
+                    <div class="auth-from__controls">
+                         <button class="btn btn--normal auth-from__control-back">Trở lại</button>
+                         <button class="btn btn--primary">Đăng ký</button>
+                    </div>
+                </div>
+                <div class="auth-from__socials">
+                    <a href="" class="auth-from__socials--facebook btn btn--size-s btn--with-icon">
+<i class="auth-from__socials-icon fa-brands fa-facebook"></i>
+                        <span class="auth-from__socials-title">
+                            Ket noi voi facebook
+                        </span>
+                    </a>
+                    <a href="" class="auth-from__socials-google btn btn--size-s btn--with-icon">
+                        <i class="auth-from__socials-icon fa-brands fa-google"></i>
+                        <span class="auth-from__socials-title">
+                            
+                            Kết nối với Google
+                        </span>
+                    </a>
+                </div>
+
+        </div> -->
+
+         
+                <!-- Login from-->
+      
+                 <!-- <div class="auth-from__container">
+                    <div class="auth-from">
+                        <div class="auth-from__header">
+                            <h3 class="auth-from__heading">Đăng nhap</h3>
+                            <span class="auth-from__switch-btn">Đăng ky</span>
+                        </div>
+    
+                        <div class="auth-from__from">
+                            <div class="auth-from__group">
+                                <input type="text" class="auth-from__input" placeholder="Nhập email">
+                            </div>
+                            <div class="auth-from__group">
+                                <input type="password" class="auth-from__input" placeholder="Mật khẩu">
+                        </div>
+                      
+    
+                    <div class="auth-from__aside"> 
+                       <div class="auth-from__help">
+                           <a href="" class="auth-from__help-link auth-from__help-forgot">Quen Mat Khau</a>
+                           <span class="auth-from__help-separate"></span>
+                           <a href="" class="auth-from__help-link">Can Tro giup?</a>
+                       </div>
+                    </div>
+    
+                    <div class="auth-from__controls">
+                         <button class="btn btn--normal auth-from__control-back">Trở lại</button>
+                         <button class="btn btn--primary">ĐANG NHAP</button>
+                    </div>
+                </div>
+                <div class="auth-from__socials">
+                    <a href="" class="auth-from__socials--facebook btn btn--size-s btn--with-icon">
+                        <i class="auth-from__socials-icon fa-brands fa-facebook"></i>
+                        <span class="auth-from__socials-title">
+                           Dang Nhap voi facebook
+                        </span>
+                    </a>
+                    <a href="" class="auth-from__socials-google btn btn--size-s btn--with-icon">
+                        <i class="auth-from__socials-icon fa-brands fa-google"></i>
+                        <span class="auth-from__socials-title">
+                            
+                            Kết nối với Google
+</span>
+                    </a>
+                </div>
+
+        </div>
+    </div>  -->
+</body>
+</html>
